@@ -1,0 +1,61 @@
+id,Nombre,Biblioteca de figuras,ID de página,Contenido por,Grupo,Origen de línea,Destino de la línea,Flecha de origen,Flecha de destino,Estado,Área de texto 1,Área de texto 2,Área de texto 3,Comentarios
+1,Documento,,,,,,,,,Borrador,TAREA,,,
+2,Página,,,,,,,,,,Clase UML,,,
+3,Contenedor de rectángulo redondeado,Figuras de diagrama de flujo/contenedores,2,,18,,,,,,,,,
+4,Texto,Estándar,2,3,18,,,,,,Aprende más sobre esta plantilla,,,
+5,Texto,Estándar,2,3,18,,,,,,"Tutoriales de diagramas de clases UML
+(mantén presionado Shift + ⌘ o Ctrl, y haz click)",,,
+6,Botón,Prototipos de interfaz de usuario,2,3,18,,,,,,Lee sobre los diagramas de clases UML,,,
+7,Botón,Prototipos de interfaz de usuario,2,3,18,,,,,,Mirar un tutorial de diagrama de clases UML,,,
+8,Imagen de usuario,Imágenes de usuario,2,3,18,,,,,,,,,
+9,MinimalTextBlock,Estándar,2,3,18,,,,,,"Los diagramas de clases UML trazan la estructura de un sistema específico al modelar sus clases, atributos, operaciones y relaciones entre objetos. 
+
+Para personalizar esta plantilla,
+Haz clic en cualquier figura y escribe la información que te gustaría incluir.
+Agrega y organiza figuras de clases según sea necesario.
+Actualiza la cardinalidad.
+Haz clic en una línea y dirígete a la barra de propiedades para modificar los extremos.
+Presiona la línea y posiciona el cursor sobre el ícono del engranaje para agregar multiplicidades.
+Para añadir líneas adicionales, pasa el cursor sobre una figura y haz clic en el punto rojo.",,,
+10,Texto,Estándar,2,,19,,,,,,TAREA,,,
+11,Texto,Estándar,2,,19,,,,,,"Bryan cedeño  |  October 22, 2023",,,
+12,Clase,UML,2,,,,,,,,AUTOS,"​- EficienciadeCombustible: String
+- PotenciayRendimiento: String
+- TecnologiaAvanzada: String
+- DiseñoAtractivo: String 
+- ContribucionaLaS: String
+- TecnologiaHoE: String
+- EspacioInterioryConfot: String","​+ getEficienciadeCombustible(): String
++ getPotenciayRendimiento(): String
++ getTecnologiaAvanzada(): String
++ getDiseñoAtractivo(): String
++ getContribucionaLaS(): String
++ getTecnologiaHoE(): String
++ getEspacioInterioryConfort(): String",
+13,Clase,UML,2,,,,,,,,Hibridos,"​- Autonomia: int
+- Bateria: String
+- PrecioAccesible: String
+- ConduccionUrbana: String
+- PotenciaVariada: String
+- Impacto Ambiental: String","​+ getAutonomia(): int
++ getBateria(): String
++ getPrecioAccesible(): String
++ getConduccionUrbana(): String
++ getPotenciaVariada(): String
++ getImpacto Ambiental(): String",
+14,Clase,UML,2,,,,,,,,Electricos,"​- Autonomia: int
+- Bateria: String
+- PrecioAccesible: String
+- ConduccionUrbana: String
+- PotenciaVariada: String
+- Impacto Ambiental: String","​+ getAutonomia(): int
++ Bateria(): String
++ PrecioAccesible(): String
++ ConduccionUrbana(): String
++ PotenciaVariada(): String
++ Impacto Ambiental(): String",
+15,Línea,,2,,19,,10,None,None,,,,,
+16,Línea,,2,,,13,12,None,Arrow,,,,,
+17,Línea,,2,,,14,12,None,Arrow,,,,,
+18,Grupo 1,,2,,,,,,,,,,,
+19,Grupo 2,,2,,,,,,,,,,,
